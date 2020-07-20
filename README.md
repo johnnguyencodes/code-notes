@@ -2,4 +2,4 @@
 
 **Currently in Developement**
 
-A web application for students who want to organize there Zoom recordings, class notes, and assignments in one place with their class/cohort-mates
+A dynamic web application for students learning to code who want to organize their notes, documentation resources, flash cards, and code examples all in one place.
