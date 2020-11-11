@@ -46,8 +46,8 @@ Code Notes is a dynamic CRUD web application built for web development students 
   4. Create a new flashcard for a note
 
   ### The client can send PUT requests to the server to update the database, and in return can receive and display the data in HTML format to:
-
-  1. Update a note
+  
+  1. Update a note, along with its difficulty, added resources and code examples, if available
 
 ### The client can send DELETE requests to the server to remove from the database to:
 
