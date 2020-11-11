@@ -95,6 +95,16 @@ npm install
 npm run db:import
 ```
 
+4. Create a .env file in the root directory and paste in the following:
+
+```
+PORT=3001
+DEV_SERVER_PORT=3000
+DATABASE_URL=postgres://dev:lfz@localhost/classNotes
+SESSION_SECRET=secret
+SESSION_EXPIRY=28800000
+```
+
 4. Start the PostgreSQL service
 ```
 sudo service postgresql start
