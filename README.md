@@ -73,7 +73,7 @@ Code Notes is a dynamic CRUD web application built for web development students 
 * Ubuntu Linux 18.04 LTS
 * Node.js 10
 * PostgreSQL 10
-* pgweb Web Admin
+* pgweb
 * NPM 6
 
 ## Set Up Environment
@@ -102,7 +102,7 @@ sudo service postgresql start
 
 5. Start the server
 ```
-pgweb
+pgweb --db=code-notes
 ```
 
 6. Start the project.  Once started, you can view the application by opening http://localhost:3000 in your browser.
