@@ -1,14 +1,30 @@
 # Code Notes
 
-**Currently in Developement**
+**Currently in Development**
+
+Code Notes is a dynamic CRUD web application built for web development students to organize their notes, documentation resources, flash cards, and code examples in one central app.
 
 > * Maintained by: `Adam Botma`, `Jingwen Wu`, `John Nguyen`, `Maison Keiser`
+
+### Technology Overview
 
 * Used React.js to create all HTML elements (virtual DOM) to dynamically display data received from the PostgreSQL database via API server created using Node.js
 
 * Used Express to retrieve user's notebook data
 
 * Used Amazon Web Services EC2 for web, API server, and PostgreSQL database
+
+
+### Technologies Used
+
+* React.js
+* Node.js
+* Express
+* PostgreSQL
+* Webpack 4
+* Bootstrap 4
+* HTML5
+* CSS3
 
 ## Feature Overview
 ### The client can send GET requests to the server, and in return can receive and display the data in HTML format to:
@@ -33,12 +49,12 @@
 
   1. Update a note
 
-  ### The client can send DELETE requests to the server to remove from the database to:
+### The client can send DELETE requests to the server to remove from the database to:
 
   1. Delete a note
 
 ### Devices
-* The app can be properly viewed on a desktop and on an iPad in landscape mode.
+* The app can be properly viewed on the desktop and on an iPad in landscape mode.
 
 ## Lessons Learned
   1. Accessing the local storage using React.js functions and dynamically display data using React.js virtual DOM functions
@@ -46,12 +62,60 @@
   3. Leveraging Object Oriented Programming to organize code into components
   4. Creating an API server using Node.js to process requests from and send data to the client
   5. Storing and handling session data using Express session
-  6. Experienced the full development process of deploying the web and API server into AWS EC2 and creating a PostgreSQL database
+  6. Experienced the full development process in a team environment by:
+     * prototyping the visual design through Figma
+     * designing a database schema on DB Designer and creating it with PostgreSQL
+     * overall project management on MeisterTask
+     * collaborating on a single codebase through pull requests, code review and resolving code conflicts on GitHub
+     * deploying the web and API server into AWS EC2.
+
+## System Requirements
+* Ubuntu Linux 18.04 LTS
+* Node.js 10
+* PostgreSQL 10
+* pgweb Web Admin
+* NPM 6
+
+## Set Up Environment
+1. Clone the repo
+
+```
+git clone https://github.com/adam-botma/class-notes.git
+
+cd class-notes
+```
+2. Install all dependencies with NPM
+```
+npm install
+```
+
+3. Import the example database to PostgreSQL
+
+```
+npm run db:import
+```
+
+4. Start the PostgreSQL service
+```
+sudo service postgresql start
+```
+
+5. Start the server
+```
+pgweb
+```
+
+6. Start the project.  Once started, you can view the application by opening http://localhost:3000 in your browser.
+```
+npm run dev
+```
+
+
 
 ## Live Site
 * The live version of the app can be viewed [here](https://code-notes.johnnguyencodes.com).
 
-### Demos
+### Preview
 
 * Desktop
 
