@@ -9,9 +9,7 @@ Code Notes is a dynamic CRUD web application built for web development students 
 ### Technology Overview
 
 * Used React.js to create all HTML elements (virtual DOM) to dynamically display data received from the PostgreSQL database via API server created using Node.js
-
 * Used Express to retrieve user's notebook data
-
 * Used Amazon Web Services EC2 for web, API server, and PostgreSQL database
 
 
