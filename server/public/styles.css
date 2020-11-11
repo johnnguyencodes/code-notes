@@ -225,6 +225,12 @@ div.main-page-left > h5:hover, div.search-block:hover, div.main-page-right:hover
   color: #C4C4C4
 }
 
+.note-input:focus{
+  background-color: #3F3F3C;
+  border: solid 1px #C4C4C4;
+  color: #C4C4C4
+}
+
 .tag-group{
   margin: 0 .5rem;
 }
