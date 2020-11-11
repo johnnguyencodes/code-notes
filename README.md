@@ -102,7 +102,7 @@ sudo service postgresql start
 
 5. Start the server
 ```
-pgweb --db=code-notes
+pgweb --db=classNotes
 ```
 
 6. Start the project.  Once started, you can view the application by opening http://localhost:3000 in your browser.
