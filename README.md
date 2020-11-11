@@ -119,8 +119,4 @@ npm run dev
 
 * Desktop
 
-<img src="https://user-images.githubusercontent.com/61361957/96650366-a3377c80-12e7-11eb-937e-c8c7a744b2ea.gif" width="600" alt="Desktop Demo Gif"/>
-
-* iPad - Landscape
-
-<img src="https://user-images.githubusercontent.com/61361957/96650371-a5014000-12e7-11eb-9b19-635b6baec0f2.gif" width="600" alt="iPad - Landscape - Demo Gif"/>
+<img src="https://user-images.githubusercontent.com/61361957/98852563-b2a07600-240c-11eb-86db-9f7855a2576d.gif" width="600" alt="Desktop Demo Gif"/>
