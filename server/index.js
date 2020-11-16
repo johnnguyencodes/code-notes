@@ -549,7 +549,8 @@ app.get('/api/flashcardDecks/:studentId', (req, res, next) => {
   select "fcDeck"."fcDeckId", "notebooks"."notebookName"
   from "fcDeck"
   join "notebooks" using ("notebookId")
-  where "notebooks"."studentId" = $1;
+  where "notebooks"."studentId" = $1
+  order by "fcDeck"."fcDeckId"
   `;
   db.query(sql, param)
     .then(result => {
@@ -566,6 +567,7 @@ app.get('/api/flashcardDecks/:studentId', (req, res, next) => {
         join "fcDeck" using ("fcDeckId")
         join "notebooks" using ("notebookId")
         where "studentId" = $1
+        order by "fcDeck"."fcDeckId"
         `;
         db.query(fcSQL, param)
           .then(result => {
