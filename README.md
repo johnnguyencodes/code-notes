@@ -78,7 +78,7 @@ Code Notes is a dynamic CRUD web application built for web development students 
 1. Clone the repo
 
 ```
-git clone https://github.com/adam-botma/class-notes.git
+git clone https://github.com/johnnguyencodes/code-notes.git
 
 cd class-notes
 ```
