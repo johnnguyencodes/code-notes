@@ -4,7 +4,7 @@
 
 Code Notes is a dynamic CRUD web application built for web development students to organize their notes, documentation resources, flash cards, and code examples in one central app.
 
-> * Maintained by: `Adam Botma`, `Jingwen Wu`, `John Nguyen`, `Maison Keiser`
+> * Maintained by: `John Nguyen`, `Adam Botma`, `Jingwen Wu`, `Maison Keiser`
 
 ### Technology Overview
 
